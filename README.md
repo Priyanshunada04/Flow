@@ -195,12 +195,6 @@ Target: **$12M ARR by Year 3**
 
 ---
 
-## License
-
-MIT License. See [LICENSE](./LICENSE) for details.
-
----
-
 <p align="center">
   <strong>Flow 🌊</strong><br/>
   <em>Banking infrastructure for the invisible era.</em>
