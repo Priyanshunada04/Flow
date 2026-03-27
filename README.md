@@ -7,7 +7,6 @@ Flow eliminates the friction of traditional finance apps by embedding intelligen
 ![Flow Platform](https://img.shields.io/badge/Platform-Embedded_Finance-C9A227?style=flat-square)
 ![React](https://img.shields.io/badge/React-18-64FFDA?style=flat-square&logo=react)
 ![Vite](https://img.shields.io/badge/Vite-6-646CFF?style=flat-square&logo=vite)
-![License](https://img.shields.io/badge/License-MIT-8892B0?style=flat-square)
 
 ---
 
