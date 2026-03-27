@@ -919,7 +919,7 @@ export default function FlowPortfolio() {
 
         {/* ── Flow Together Prototype ── */}
         <Reveal delay={0.32}>
-          <a href="https://www.figma.com/make/Y65Vnl0xgmKYscizOWLdkf/Flow-Together-Screen?fullscreen=1&t=MwAbMi4zyVvupNXA-1"
+          <a href="https://www.figma.com/make/Y65Vnl0xgmKYscizOWLdkf/Flow-Together-Screen?fullscreen=1&t=a5U2epHGaQmqCfp5-1" 
             target="_blank" rel="noopener noreferrer" className="proto-card proto-inner"
             style={{
               display: "flex", gap: "clamp(24px, 4vw, 40px)", alignItems: "center", flexWrap: "wrap",
