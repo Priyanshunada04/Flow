@@ -29,8 +29,8 @@ Flow is an embedded finance infrastructure layer designed for Tier 1-2 banks, cr
 
 ```
 ┌─────────────────────────────────────────────────────────┐
-│                    FLOW PLATFORM                         │
-│              (Shared Infrastructure)                     │
+│                    FLOW PLATFORM                        │
+│              (Shared Infrastructure)                    │
 ├─────────────┬─────────────┬─────────────────────────────┤
 │  FLOW SPLIT │  FLOW SAFE  │      FLOW TOGETHER          │
 │  Reactive   │  Proactive  │      Social                 │
