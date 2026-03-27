@@ -289,7 +289,7 @@ export default function FlowPortfolio() {
               fontFamily: "var(--f-body)", fontSize: "clamp(15px, 2.5vw, 18px)", color: "var(--c-muted)",
               lineHeight: 1.75, maxWidth: 580, marginBottom: "clamp(24px, 4vw, 36px)", fontWeight: 300,
             }}>
-              Flow is an AI-native, context-aware financial companion that lives where conversations already happen. It eliminates the friction of traditional finance apps by embedding intelligent money management directly into iMessage, Instagram, and Uber — not another app to download.
+              Flow is an AI-native, context aware financial companion that lives where conversations already happen. It eliminates the friction of traditional finance apps by embedding intelligent money management directly into iMessage, Instagram, Uber and not another app to download.
             </p>
           </Reveal>
           <Reveal delay={0.45}>
@@ -394,7 +394,7 @@ export default function FlowPortfolio() {
         <Reveal delay={0.05}><H2>What is Flow?</H2></Reveal>
         <Reveal delay={0.1}>
           <P style={{ marginBottom: 48, maxWidth: 680, fontSize: 17 }}>
-            An AI-native, context-aware financial companion that lives where conversations already happen for Gen Z. It eliminates the friction of traditional finance apps by embedding intelligent money management directly into messaging platforms.
+            An AI-native, context aware financial companion that lives where conversations already happen for Gen Z. It eliminates the friction of traditional finance apps by embedding intelligent money management directly into messaging platforms.
           </P>
         </Reveal>
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(230px, 100%), 1fr))", gap: 18 }} className="philosophy-grid">
@@ -426,7 +426,7 @@ export default function FlowPortfolio() {
         <Reveal delay={0.05}><H2>Three modules. One shared platform.</H2></Reveal>
         <Reveal delay={0.1}>
           <P style={{ marginBottom: 48 }}>
-            Flow's three products — Split, Safe, and Together — sit atop a shared infrastructure layer that handles user profiles, bank/card APIs, ML intelligence, notifications, and security.
+            Flow's three products — Split, Safe, and Together. A shared infrastructure layer that handles user profiles, bank/card APIs, ML intelligence, notifications, and security.
           </P>
         </Reveal>
         <Reveal delay={0.15}>
@@ -491,7 +491,7 @@ export default function FlowPortfolio() {
         <Reveal delay={0.05}><H2>Reactive Splitting — divide costs where they happen.</H2></Reveal>
         <Reveal delay={0.1}>
           <P style={{ marginBottom: 40 }}>
-            User has already spent money and needs to divide the cost. Flow Split detects natural language in iMessage, parses amounts and participants, and generates a rich payment card — all without leaving the conversation.
+            User has already spent money and needs to divide the cost. Flow Split detects natural language in iMessage, parses amounts and participants, and generates a rich payment card all without leaving the conversation.
           </P>
         </Reveal>
         <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 40, alignItems: "start" }} className="grid-2col">
@@ -579,7 +579,7 @@ export default function FlowPortfolio() {
               <div style={{ fontFamily: "var(--f-mono)", fontSize: 11, color: "#C9A227", letterSpacing: "0.1em", marginBottom: 20 }}>ML PIPELINE</div>
               <FlowStep label="Data Ingestion" desc="Transaction history, recurring bills (detected patterns), income schedule, upcoming payments from calendar." accent="#C9A227" />
               <FlowStep label="Prediction Engine" desc="Cash flow 7/14/30 days out. Anomaly detection for unusual spending. Safe-to-spend calculation. Risk scoring." accent="#C9A227" />
-              <FlowStep label="Contextual Delivery" desc="Nudges delivered on lock screen, inline in iMessage, or via widgets — at the exact moment of decision." accent="#C9A227" />
+              <FlowStep label="Contextual Delivery" desc="Nudges delivered on lock screen, inline in iMessage, or via widgets at the exact moment of decision." accent="#C9A227" />
               <FlowStep label="Adaptive Learning" desc="User corrections improve predictions. A/B tested nudge timing. Seasonal pattern adjustments." accent="#C9A227" isLast />
             </div>
           </Reveal>
@@ -623,7 +623,7 @@ export default function FlowPortfolio() {
         <Reveal delay={0.05}><H2>Social Saving — group goals in group chats.</H2></Reveal>
         <Reveal delay={0.1}>
           <P style={{ marginBottom: 40 }}>
-            A group wants to save toward a shared goal. Flow Together creates savings pots directly inside iMessage group chats — with progress tracking, contribution scheduling, milestone celebrations, and gentle accountability nudges.
+            A group wants to save toward a shared goal. Flow Together creates savings pots directly inside iMessage group chats with a progress tracking, contribution scheduling, milestone celebrations, and gentle accountability nudges.
           </P>
         </Reveal>
         <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 40, alignItems: "start" }} className="grid-2col">
@@ -703,7 +703,7 @@ export default function FlowPortfolio() {
         <Reveal delay={0.05}><H2>Products that talk to each other.</H2></Reveal>
         <Reveal delay={0.1}>
           <P style={{ marginBottom: 48 }}>
-            Flow's three modules aren't siloed. The shared ML engine creates intelligent handoffs between Split, Safe, and Together — turning isolated actions into a connected financial experience.
+            Flow's three modules aren't siloed. The shared ML engine creates intelligent handoffs between Split, Safe, and Together that turns an isolated actions into a connected financial experience.
           </P>
         </Reveal>
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(280px, 100%), 1fr))", gap: 18 }}>
