@@ -839,34 +839,40 @@ export default function FlowPortfolio() {
           </a>
         </Reveal>
 
-        {/* ── Flow Split: full flow + decline path (Claude Design) ── */}
+        {/* ── Full Flow prototype: Split, Safe, Together (Claude Design) ── */}
         <Reveal delay={0.2}>
           <a href="https://claude.ai/artifact/C9VE2Q7G5Q7guTYBD5x3Nr"
             target="_blank" rel="noopener noreferrer" className="proto-card proto-inner"
             style={{
-              display: "flex", gap: "clamp(16px, 3vw, 28px)", alignItems: "center", flexWrap: "wrap",
+              display: "flex", gap: "clamp(20px, 4vw, 36px)", alignItems: "center", flexWrap: "wrap",
               textDecoration: "none", borderRadius: 20, padding: "clamp(20px, 3vw, 28px) clamp(20px, 4vw, 32px)",
-              background: "var(--c-card)", border: "1px solid rgba(201,162,39,0.18)",
+              background: "var(--c-card)", border: "1px solid rgba(201,162,39,0.22)",
               transition: "all 0.4s cubic-bezier(0.22,1,0.36,1)", position: "relative",
               marginBottom: 20,
             }}>
-            <div style={{ display: "flex", gap: 6, flexShrink: 0 }} aria-hidden="true">
-              {["#C9A227", "#64FFDA", "#FF6B6B"].map((c, i) => (
-                <div key={i} style={{ width: 34, height: 66, borderRadius: 9, border: "1.5px solid " + c, opacity: 0.85, background: "rgba(8,18,36,0.9)" }} />
-              ))}
-            </div>
+            <img src="/flow-prototype.jpg" width="900" height="637" loading="lazy"
+              alt="Three screens from the Flow prototype: Split status at 2 of 3 paid with a gentle nudge, Safe explaining why $27 is safe to spend today, and Together asking for 3 of 4 approvals before releasing a $2,000 pot."
+              style={{ width: "min(100%, 340px)", height: "auto", borderRadius: 14, flexShrink: 0, boxShadow: "0 20px 60px rgba(0,0,0,0.4)" }} />
             <div style={{ flex: 1, minWidth: 220 }}>
-              <span style={{ fontFamily: "var(--f-mono)", fontSize: 11, color: "#C9A227", letterSpacing: "0.08em", textTransform: "uppercase" }}>Clickable flow · 8 screens + states</span>
-              <h3 style={{ fontFamily: "var(--f-serif)", fontSize: "clamp(18px, 2.6vw, 22px)", fontWeight: 700, color: "var(--c-text)", margin: "8px 0 6px" }}>
-                Flow Split, end to end, including the decline path
+              <span style={{ fontFamily: "var(--f-mono)", fontSize: 11, color: "#C9A227", letterSpacing: "0.08em", textTransform: "uppercase" }}>Clickable prototype · 21 screens</span>
+              <h3 style={{ fontFamily: "var(--f-serif)", fontSize: "clamp(20px, 3vw, 24px)", fontWeight: 700, color: "var(--c-text)", margin: "8px 0 8px" }}>
+                The full Flow prototype: Split, Safe and Together
               </h3>
-              <p style={{ fontFamily: "var(--f-body)", fontSize: 14, color: "var(--c-muted)", lineHeight: 1.6, maxWidth: 460 }}>
-                From the group chat to a settled split. Tap Devon on the status screen to see what happens when a friend says no: cover the share, nudge again or cancel.
+              <p style={{ fontFamily: "var(--f-body)", fontSize: 14, color: "var(--c-muted)", lineHeight: 1.65, marginBottom: 14, maxWidth: 460 }}>
+                Every product, end to end, with the handoffs between them. See how a friend's decline is handled, how Safe explains its math and lets you correct it, and why spending a group pot needs 3 of 4 approvals.
               </p>
-            </div>
-            <div className="proto-arrow" style={{ display: "inline-flex", alignItems: "center", gap: 8, fontFamily: "var(--f-body)", fontSize: 14, fontWeight: 600, color: "#C9A227" }}>
-              Open the flow
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#C9A227" strokeWidth="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+              <div style={{ display: "flex", gap: 16, flexWrap: "wrap", marginBottom: 16 }}>
+                {[{ l: "Split", v: "9 screens" }, { l: "Safe", v: "6 screens" }, { l: "Together", v: "6 screens" }].map((s, i) => (
+                  <div key={i}>
+                    <div style={{ fontFamily: "var(--f-mono)", fontSize: 14, color: "#C9A227", fontWeight: 500 }}>{s.v}</div>
+                    <div style={{ fontFamily: "var(--f-body)", fontSize: 10, color: "var(--c-muted)", marginTop: 2 }}>{s.l}</div>
+                  </div>
+                ))}
+              </div>
+              <div className="proto-arrow" style={{ display: "inline-flex", alignItems: "center", gap: 8, fontFamily: "var(--f-body)", fontSize: 14, fontWeight: 600, color: "#C9A227" }}>
+                Open the prototype
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#C9A227" strokeWidth="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+              </div>
             </div>
           </a>
         </Reveal>
