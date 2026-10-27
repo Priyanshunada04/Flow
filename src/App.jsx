@@ -839,6 +839,38 @@ export default function FlowPortfolio() {
           </a>
         </Reveal>
 
+        {/* ── Flow Split: full flow + decline path (Claude Design) ── */}
+        <Reveal delay={0.2}>
+          <a href="https://claude.ai/artifact/C9VE2Q7G5Q7guTYBD5x3Nr"
+            target="_blank" rel="noopener noreferrer" className="proto-card proto-inner"
+            style={{
+              display: "flex", gap: "clamp(16px, 3vw, 28px)", alignItems: "center", flexWrap: "wrap",
+              textDecoration: "none", borderRadius: 20, padding: "clamp(20px, 3vw, 28px) clamp(20px, 4vw, 32px)",
+              background: "var(--c-card)", border: "1px solid rgba(201,162,39,0.18)",
+              transition: "all 0.4s cubic-bezier(0.22,1,0.36,1)", position: "relative",
+              marginBottom: 20,
+            }}>
+            <div style={{ display: "flex", gap: 6, flexShrink: 0 }} aria-hidden="true">
+              {["#C9A227", "#64FFDA", "#FF6B6B"].map((c, i) => (
+                <div key={i} style={{ width: 34, height: 66, borderRadius: 9, border: "1.5px solid " + c, opacity: 0.85, background: "rgba(8,18,36,0.9)" }} />
+              ))}
+            </div>
+            <div style={{ flex: 1, minWidth: 220 }}>
+              <span style={{ fontFamily: "var(--f-mono)", fontSize: 11, color: "#C9A227", letterSpacing: "0.08em", textTransform: "uppercase" }}>Clickable flow · 8 screens + states</span>
+              <h3 style={{ fontFamily: "var(--f-serif)", fontSize: "clamp(18px, 2.6vw, 22px)", fontWeight: 700, color: "var(--c-text)", margin: "8px 0 6px" }}>
+                Flow Split, end to end, including the decline path
+              </h3>
+              <p style={{ fontFamily: "var(--f-body)", fontSize: 14, color: "var(--c-muted)", lineHeight: 1.6, maxWidth: 460 }}>
+                From the group chat to a settled split. Tap Devon on the status screen to see what happens when a friend says no: cover the share, nudge again or cancel.
+              </p>
+            </div>
+            <div className="proto-arrow" style={{ display: "inline-flex", alignItems: "center", gap: 8, fontFamily: "var(--f-body)", fontSize: 14, fontWeight: 600, color: "#C9A227" }}>
+              Open the flow
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#C9A227" strokeWidth="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </div>
+          </a>
+        </Reveal>
+
         {/* ── Flow Safe Prototype ── */}
         <Reveal delay={0.24}>
           <a href="https://www.figma.com/make/vSadqxByG8BfhBhh9dAe1x/Flow-Safe-Screen-Design?fullscreen=1&t=2Ffu9agxOkHFCN41-1"
