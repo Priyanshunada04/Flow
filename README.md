@@ -69,6 +69,7 @@ Products aren't siloed. The shared ML engine creates intelligent handoffs:
 
 | Product | Prototype | Description |
 |---------|-----------|-------------|
+| **All three** | [Launch →](https://claude.ai/artifact/C9VE2Q7G5Q7guTYBD5x3Nr) | 21-screen clickable prototype: Split (with decline path), Safe (explainable forecast, nudge controls) and Together (private nudges, 3-of-4 release approvals) |
 | **Flow Split** | [Launch →](https://www.figma.com/make/wkKulpcf5Upid6V0bKaK5L/Flow-Split-iOS-Prototype?fullscreen=1&t=SMKJe9FIKXgqBdK6-1) | Bill splitting in iMessage — NLP parsing to settlement |
 | **Flow Safe** | [Launch →](https://www.figma.com/make/vSadqxByG8BfhBhh9dAe1x/Flow-Safe-Screen-Design?fullscreen=1&t=2Ffu9agxOkHFCN41-1) | ML-powered safe-to-spend predictions and contextual nudges |
 | **Flow Together** | [Launch →](https://www.figma.com/make/Y65Vnl0xgmKYscizOWLdkf/Flow-Together-Screen?fullscreen=1&t=MwAbMi4zyVvupNXA-1) | Group savings pots with milestones and social accountability |
